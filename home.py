@@ -1,6 +1,86 @@
 import streamlit as st
+st.set_page_config(
+    page_title="AI Resume ATS Analyzer",
+    page_icon="📄",
+    layout="centered"
+)
 
-st.set_page_config(layout="centered")
+st.markdown("""
+            <style>
+            .small_smartAi {
+                font-size: 70px ;
+                font-weight: bold !important;
+                margin-top: 70px !important;
+                text-align:left;
+
+                background: linear-gradient(to right, #2193b0, #6dd5ed);
+                -webkit-background-clip: text;
+                background-clip: text;
+
+                -webkit-text-fill-color: transparent;
+            }
+            
+            .buttons{
+                background:linear-gradient(to right, #2193b0, #6dd5ed);
+                width:70px,
+                color: white;
+            }
+            
+             </style>       
+        """,unsafe_allow_html=True)
+    
+
+st.markdown("""
+        <style>
+        @keyframes mergeBehindSync {
+            0%, 100% { transform: translateX(30px); z-index: 1; } /*z-index to put image backside*/
+            50% { transform: translateX(100px); z-index: 0; } /* left moves right behind center */
+        }
+
+        @keyframes mergeBehindSyncRight {
+            0%, 100% { transform: translateX(-30px); z-index: 1; }
+            50% { transform: translateX(-100px); z-index: 0; } /* right moves left behind center */
+        }
+
+        .animated-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .animated-container img.left {
+            width: 120px;
+            animation: mergeBehindSync 4s infinite ease-in-out;
+        }
+
+        .animated-container img.right {
+            width: 120px;
+            animation: mergeBehindSyncRight 4s infinite ease-in-out;
+        }
+
+        .animated-container img.center {
+            width: 150px;
+            position: relative;
+            z-index: 2; /* always on top */
+        }
+        </style>
+
+        <div class="animated-container">
+            <img class="left" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
+            <img class="center" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
+            <img class="right" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
+        </div>
+        """, unsafe_allow_html=True)
+
+
+
+# st.write("Welcome to the AI Resume Analyzer project.")
+# st.write("Use the sidebar to navigate between pages.")
+# import streamlit as st
+
 st.markdown("""
             <style>
 
@@ -11,7 +91,7 @@ st.markdown("""
                 border-radius: 12px;
                 color: white;
                 max-width: 800px;
-                margin-top: 15px;
+                margin-top: 70px;
                 display:flex;
                 justify-content:flex-start;
                 text-align:center;
@@ -198,3 +278,5 @@ st.markdown("""
             </div>
             
             """, unsafe_allow_html=True)
+
+        
