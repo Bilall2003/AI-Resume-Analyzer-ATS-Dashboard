@@ -85,7 +85,7 @@ st.markdown("""
                 </style>
 
                 <div class="sec-box">
-                    <img class="secmoveright" src="https://raw.githubusercontent.com/Bilall2003/Smart-Resume-Analyzer-Job-Recommendation-System/refs/heads/main/script/assets/rb_image.png">
+                    <img class="secmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/bot%20img.png">
                     <h2>AI-Powered Analysis</h2>
                     <p>
                         Get instant feedback on your resume with advanced AI analysis that identifies strengths and areas for improvement.
@@ -112,7 +112,7 @@ st.markdown("""
             }
 
             .thrdmoveright {
-                width: 70px;
+                width: 40px;
                 position: relative;
                 animation: Syncimg 2s infinite ease-in-out;
                 overflow:hidden;
@@ -138,7 +138,7 @@ st.markdown("""
             </style>
 
             <div class="thrd-box">
-                <img class="thrdmoveright" src="https://raw.githubusercontent.com/Bilall2003/Smart-Resume-Analyzer-Job-Recommendation-System/refs/heads/main/script/assets/rb_image%20(1).png">
+                <img class="thrdmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dash.png">
                 <h2>Dashboard Exploration</h2>
                 <p>
                         visual interfaces that aggregate key performance indicators and metrics from various data sources into a single, easy-to-digest format.
@@ -190,7 +190,7 @@ st.markdown("""
             
             </style>
             <div class="forth-box">
-                <img class="forthmoveright" src="https://raw.githubusercontent.com/Bilall2003/Smart-Resume-Analyzer-Job-Recommendation-System/refs/heads/main/script/assets/img%203.avif">
+                <img class="forthmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dashb%20img.png">
                 <h2>Career Insights</h2>
                 <p>
                     Access detailed analytics and personalized recommendations to enhance your career prospects.
