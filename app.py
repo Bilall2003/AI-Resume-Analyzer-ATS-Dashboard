@@ -1,9 +1,13 @@
-import numpy as np
 import streamlit as st
-import matplotlib
 
-st.title("hekko")
+st.set_page_config(
+    page_title="AI Resume ATS Analyzer",
+    page_icon="📄",
+    layout="wide"
+)
 
-cv=st.file_uploader("Drop your CV")
-if cv:
-    st.balloons()
+st.title("AI Resume ATS Analyzer")
+
+st.write("Welcome to the AI Resume Analyzer project.")
+
+st.write("Use the sidebar to navigate between pages.")
