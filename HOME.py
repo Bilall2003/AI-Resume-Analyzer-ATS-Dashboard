@@ -85,7 +85,7 @@ st.markdown("""
             <style>
 
             .green-box {
-                background: linear-gradient(45deg, rgba(0, 180, 219, 0.7) 100%, rgba(0, 131, 176, 0.05) 100%);    
+                background: linear-gradient(45deg, rgba(0, 60, 219, 0.7) 100%, rgba(0, 131, 176, 0.05) 100%);    
                 padding:20px;     
                 width:2500px; 
                 border-radius: 12px;
@@ -270,7 +270,7 @@ st.markdown("""
             
             </style>
             <div class="forth-box">
-                <img class="forthmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dashb%20img.png">
+                <img class="forthmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dashb%20img.png?token=GHSAT0AAAAAADSBQYOOOLB5RHOR4NBKX2YM2NX3JSQ">
                 <h2>Career Insights</h2>
                 <p>
                     Access detailed analytics and personalized recommendations to enhance your career prospects.
