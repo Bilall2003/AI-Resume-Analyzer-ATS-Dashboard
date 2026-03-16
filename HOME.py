@@ -85,7 +85,7 @@ st.markdown("""
             <style>
 
             .green-box {
-                background: linear-gradient(45deg, rgba(0, 60, 219, 0.7) 100%, rgba(0, 131, 176, 0.05) 100%);    
+                background: linear-gradient(45deg, rgba(0, 240, 219, 0.7) 100%, rgba(0, 131, 176, 0.05) 100%);    
                 padding:20px;     
                 width:2500px; 
                 border-radius: 12px;
