@@ -69,9 +69,9 @@ st.markdown("""
         </style>
 
         <div class="animated-container">
-            <img class="left" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
-            <img class="center" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
-            <img class="right" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png">
+            <img class="left" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png?token=GHSAT0AAAAAADSBQYOP2ZPXZJNESAOSIYGS2NX3HAQ">
+            <img class="center" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png?token=GHSAT0AAAAAADSBQYOP2ZPXZJNESAOSIYGS2NX3HAQ">
+            <img class="right" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/cv.png?token=GHSAT0AAAAAADSBQYOP2ZPXZJNESAOSIYGS2NX3HAQ">
         </div>
         """, unsafe_allow_html=True)
 
@@ -165,7 +165,7 @@ st.markdown("""
                 </style>
 
                 <div class="sec-box">
-                    <img class="secmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/bot%20img.png">
+                    <img class="secmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/bot%20img.png?token=GHSAT0AAAAAADSBQYOPSZRZ2RBETK3IGJUY2NX3IDA">
                     <h2>AI-Powered Analysis</h2>
                     <p>
                         Get instant feedback on your resume with advanced AI analysis that identifies strengths and areas for improvement.
@@ -218,7 +218,7 @@ st.markdown("""
             </style>
 
             <div class="thrd-box">
-                <img class="thrdmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dash.png">
+                <img class="thrdmoveright" src="https://raw.githubusercontent.com/Bilall2003/AI-Resume-Analyzer-ATS-Dashboard/refs/heads/main/assets/dash.png?token=GHSAT0AAAAAADSBQYOOPV3YIHBWTDPEJBBC2NX3IVQ">
                 <h2>Dashboard Exploration</h2>
                 <p>
                         visual interfaces that aggregate key performance indicators and metrics from various data sources into a single, easy-to-digest format.
