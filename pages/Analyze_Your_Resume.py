@@ -54,38 +54,39 @@ filtered_roles = data[data["category"] == job_cat]["role"].unique()
 # Step 4: Select role
 selected_role = st.selectbox("Specific Role", filtered_roles)
 
-st.markdown("""
-            <style>
-            .thrd-box {
-                background: linear-gradient(45deg, rgba(120, 180, 200, 0.3) 100%, rgba(0, 131, 176, 0.05) 100%);           
-                padding: 20px;
-                width:2500px;
-                border-radius: 12px;
-                color: white;
-                max-width: 1300px;
-                margin-top: 35px;
-                overflow:hidden;
-            }
-            .thrd-box h2 {
-                font-size: 2.5rem;
-                font-weight: bold;
-                margin-bottom: 10px;
-            }
+st.markdown(f"""
+        <style>
+        .thrd-box {{
+        background: linear-gradient(45deg, rgba(120, 180, 200, 0.3) 100%, rgba(0, 131, 176, 0.05) 100%); 
+        padding: 20px;
+        width:2500px;
+        border-radius: 12px;
+        color: white;
+        max-width: 1300px; 
+        margin-top: 35px;
+        overflow:hidden;
+        }}
 
-            .thrd-box p {
-                font-size: 1.2rem;
-                line-height: 1.5;
-            }
-            
-            </style>
+        .thrd-box h2 {{
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }}
 
-            <div class="thrd-box">
-                <h2>Dashboard Exploration</h2>
-                <p>
-                        visual interfaces that aggregate key performance indicators and metrics from various data sources into a single, easy-to-digest format.
-                </p>
-            </div>
-            """, unsafe_allow_html=True)
+        .thrd-box p {{
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }}
+        </style>
+
+        <div class="thrd-box">
+            <h2>{selected_role if selected_role else "Select a role"}</h2>
+            <p>
+                Visual interfaces that aggregate key performance indicators and metrics 
+                from various data sources into a single, easy-to-digest format.
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
 
 # uploaded_file = st.file_uploader(
 #     "Upload Resume",
