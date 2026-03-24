@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(
     page_title="AI Resume ATS Analyzer",
     page_icon="📄",
-    layout="centered"
+    layout="wide"
 )
 
 st.markdown("""
@@ -90,7 +90,7 @@ st.markdown("""
                 width:2500px; 
                 border-radius: 12px;
                 color: white;
-                max-width: 800px;
+                max-width: 1300px;
                 margin-top: 70px;
                 display:flex;
                 justify-content:flex-start;
@@ -106,7 +106,7 @@ st.markdown("""
 
             .green-box p {
                 font-size: 1.2rem;
-                line-height: 1.5;
+                line-height: 2.2;
             }
             </style>
 
@@ -127,7 +127,7 @@ st.markdown("""
                     width:2500px; 
                     border-radius: 12px;
                     color: white;
-                    max-width: 800px;
+                    max-width: 1300px;
                     margin-top: 70px;
                     position: relative;
                     overflow:hidden;
@@ -181,7 +181,7 @@ st.markdown("""
                 width:2500px;
                 border-radius: 12px;
                 color: white;
-                max-width: 800px;
+                max-width: 1300px;
                 margin-top: 35px;
                 overflow:hidden;
             }
@@ -233,7 +233,7 @@ st.markdown("""
                 width:2500px; 
                 border-radius: 12px;
                 color: white;
-                max-width: 800px;
+                max-width: 1300px;
                 margin-top: 35px;
                 overflow: hidden
             }
