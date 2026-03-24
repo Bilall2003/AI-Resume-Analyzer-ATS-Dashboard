@@ -1,132 +1,132 @@
-category,role,skill
-Data & AI,Data Scientist,python
-Data & AI,Data Scientist,pandas
-Data & AI,Data Scientist,numpy
-Data & AI,Data Scientist,scikit-learn
-Data & AI,Data Scientist,machine learning
-Data & AI,Data Scientist,statistics
-Data & AI,Data Scientist,data visualization
-Data & AI,Data Scientist,sql
-Data & AI,Data Scientist,deep learning
-Data & AI,Data Scientist,tensorflow
-Data & AI,Data Scientist,pytorch
-Data & AI,Data Scientist,nlp
-Data & AI,Data Scientist,feature engineering
-Data & AI,Data Scientist,model evaluation
-Data & AI,Machine Learning Engineer,python
-Data & AI,Machine Learning Engineer,tensorflow
-Data & AI,Machine Learning Engineer,pytorch
-Data & AI,Machine Learning Engineer,mlops
-Data & AI,Machine Learning Engineer,docker
-Data & AI,Machine Learning Engineer,kubernetes
-Data & AI,Machine Learning Engineer,model deployment
-Data & AI,Machine Learning Engineer,api
-Data & AI,Machine Learning Engineer,deep learning
-Data & AI,Machine Learning Engineer,data pipelines
-Data & AI,Data Analyst,excel
-Data & AI,Data Analyst,sql
-Data & AI,Data Analyst,power bi
-Data & AI,Data Analyst,tableau
-Data & AI,Data Analyst,python
-Data & AI,Data Analyst,pandas
-Data & AI,Data Analyst,data visualization
-Data & AI,Data Analyst,statistics
-Data & AI,Data Analyst,reporting
-Data & AI,Data Analyst,dashboarding
-Data & AI,AI Engineer,python
-Data & AI,AI Engineer,deep learning
-Data & AI,AI Engineer,nlp
-Data & AI,AI Engineer,transformers
-Data & AI,AI Engineer,llm
-Data & AI,AI Engineer,tensorflow
-Data & AI,AI Engineer,pytorch
-Data & AI,AI Engineer,huggingface
-Data & AI,AI Engineer,computer vision
-Software Engineering,Backend Developer,python
-Software Engineering,Backend Developer,django
-Software Engineering,Backend Developer,flask
-Software Engineering,Backend Developer,api
-Software Engineering,Backend Developer,rest
-Software Engineering,Backend Developer,sql
-Software Engineering,Backend Developer,postgresql
-Software Engineering,Backend Developer,mongodb
-Software Engineering,Backend Developer,authentication
-Software Engineering,Backend Developer,microservices
-Software Engineering,Frontend Developer,html
-Software Engineering,Frontend Developer,css
-Software Engineering,Frontend Developer,javascript
-Software Engineering,Frontend Developer,react
-Software Engineering,Frontend Developer,vue
-Software Engineering,Frontend Developer,bootstrap
-Software Engineering,Frontend Developer,responsive design
-Software Engineering,Frontend Developer,ui/ux
-Software Engineering,Frontend Developer,web performance
-Software Engineering,Full Stack Developer,html
-Software Engineering,Full Stack Developer,css
-Software Engineering,Full Stack Developer,javascript
-Software Engineering,Full Stack Developer,react
-Software Engineering,Full Stack Developer,node.js
-Software Engineering,Full Stack Developer,express
-Software Engineering,Full Stack Developer,mongodb
-Software Engineering,Full Stack Developer,sql
-Software Engineering,Full Stack Developer,api
-Software Engineering,Full Stack Developer,git
-Software Engineering,Software Engineer,data structures
-Software Engineering,Software Engineer,algorithms
-Software Engineering,Software Engineer,oop
-Software Engineering,Software Engineer,system design
-Software Engineering,Software Engineer,python
-Software Engineering,Software Engineer,java
-Software Engineering,Software Engineer,c++
-Software Engineering,Software Engineer,git
-Software Engineering,Software Engineer,debugging
-Cloud & DevOps,DevOps Engineer,docker
-Cloud & DevOps,DevOps Engineer,kubernetes
-Cloud & DevOps,DevOps Engineer,ci/cd
-Cloud & DevOps,DevOps Engineer,jenkins
-Cloud & DevOps,DevOps Engineer,github actions
-Cloud & DevOps,DevOps Engineer,linux
-Cloud & DevOps,DevOps Engineer,aws
-Cloud & DevOps,DevOps Engineer,azure
-Cloud & DevOps,DevOps Engineer,gcp
-Cloud & DevOps,DevOps Engineer,monitoring
-Cloud & DevOps,Cloud Engineer,aws
-Cloud & DevOps,Cloud Engineer,azure
-Cloud & DevOps,Cloud Engineer,gcp
-Cloud & DevOps,Cloud Engineer,cloud architecture
-Cloud & DevOps,Cloud Engineer,networking
-Cloud & DevOps,Cloud Engineer,virtual machines
-Cloud & DevOps,Cloud Engineer,storage
-Cloud & DevOps,Cloud Engineer,security
-Cloud & DevOps,Site Reliability Engineer,linux
-Cloud & DevOps,Site Reliability Engineer,monitoring
-Cloud & DevOps,Site Reliability Engineer,logging
-Cloud & DevOps,Site Reliability Engineer,automation
-Cloud & DevOps,Site Reliability Engineer,kubernetes
-Cloud & DevOps,Site Reliability Engineer,incident management
-Cloud & DevOps,Site Reliability Engineer,scripting
-Cybersecurity,Cybersecurity Analyst,network security
-Cybersecurity,Cybersecurity Analyst,penetration testing
-Cybersecurity,Cybersecurity Analyst,firewalls
-Cybersecurity,Cybersecurity Analyst,siem
-Cybersecurity,Cybersecurity Analyst,risk analysis
-Cybersecurity,Cybersecurity Analyst,cryptography
-Cybersecurity,Cybersecurity Analyst,incident response
-Cybersecurity,Ethical Hacker,penetration testing
-Cybersecurity,Ethical Hacker,kali linux
-Cybersecurity,Ethical Hacker,metasploit
-Cybersecurity,Ethical Hacker,burp suite
-Cybersecurity,Ethical Hacker,vulnerability scanning
-Cybersecurity,Ethical Hacker,web security
-Business & Analytics,Business Analyst,excel
-Business & Analytics,Business Analyst,sql
-Business & Analytics,Business Analyst,data analysis
-Business & Analytics,Business Analyst,requirement gathering
-Business & Analytics,Business Analyst,stakeholder communication
-Business & Analytics,Business Analyst,process modeling
-Business & Analytics,Product Analyst,sql
-Business & Analytics,Product Analyst,python
-Business & Analytics,Product Analyst,data analysis
-Business & Analytics,Product Analyst,a/b testing
-Business & Analytics,Product Analyst,product metrics
-Business & Analytics,Product Analyst,user behavior analysis
+category,role,description,skill
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",python
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",pandas
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",numpy
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",scikit-learn
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",machine learning
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",statistics
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",data visualization
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",sql
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",deep learning
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",tensorflow
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",pytorch
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",nlp
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",feature engineering
+Data & AI,Data Scientist,"Analyze complex data to extract insights, build predictive models, and support data-driven decision making.",model evaluation
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",python
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",tensorflow
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",pytorch
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",mlops
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",docker
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",kubernetes
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",model deployment
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",api
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",deep learning
+Data & AI,Machine Learning Engineer,"Design, build, and deploy machine learning models into production environments.",data pipelines
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",excel
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",sql
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",power bi
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",tableau
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",python
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",pandas
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",data visualization
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",statistics
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",reporting
+Data & AI,Data Analyst,"Interpret data, create reports, and visualize trends to support business decisions.",dashboarding
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",python
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",deep learning
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",nlp
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",transformers
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",llm
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",tensorflow
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",pytorch
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",huggingface
+Data & AI,AI Engineer,"Develop AI systems using deep learning, NLP, and advanced algorithms for intelligent applications.",computer vision
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",python
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",django
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",flask
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",api
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",rest
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",sql
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",postgresql
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",mongodb
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",authentication
+Software Engineering,Backend Developer,"Build and maintain server-side logic, APIs, and databases for web applications.",microservices
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,html
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,css
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,javascript
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,react
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,vue
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,bootstrap
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,responsive design
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,ui/ux
+Software Engineering,Frontend Developer,Develop user interfaces and enhance user experience for web applications.,web performance
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,html
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,css
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,javascript
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,react
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,node.js
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,express
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,mongodb
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,sql
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,api
+Software Engineering,Full Stack Developer,Work on both frontend and backend systems to develop complete web applications.,git
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",data structures
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",algorithms
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",oop
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",system design
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",python
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",java
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",c++
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",git
+Software Engineering,Software Engineer,"Design, develop, and optimize software systems with strong programming and problem-solving skills.",debugging
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",docker
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",kubernetes
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",ci/cd
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",jenkins
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",github actions
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",linux
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",aws
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",azure
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",gcp
+Cloud & DevOps,DevOps Engineer,"Automate and manage infrastructure, CI/CD pipelines, and deployment processes.",monitoring
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,aws
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,azure
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,gcp
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,cloud architecture
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,networking
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,virtual machines
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,storage
+Cloud & DevOps,Cloud Engineer,Design and manage cloud-based infrastructure and services.,security
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",linux
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",monitoring
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",logging
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",automation
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",kubernetes
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",incident management
+Cloud & DevOps,Site Reliability Engineer,"Ensure reliability, scalability, and performance of systems through automation and monitoring.",scripting
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,network security
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,penetration testing
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,firewalls
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,siem
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,risk analysis
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,cryptography
+Cybersecurity,Cybersecurity Analyst,Protect systems and networks by identifying vulnerabilities and responding to security incidents.,incident response
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,penetration testing
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,kali linux
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,metasploit
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,burp suite
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,vulnerability scanning
+Cybersecurity,Ethical Hacker,Simulate cyberattacks to identify and fix security vulnerabilities in systems.,web security
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,excel
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,sql
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,data analysis
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,requirement gathering
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,stakeholder communication
+Business & Analytics,Business Analyst,Analyze business processes and data to improve efficiency and decision-making.,process modeling
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,sql
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,python
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,data analysis
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,a/b testing
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,product metrics
+Business & Analytics,Product Analyst,Analyze product performance and user behavior to guide product improvements.,user behavior analysis

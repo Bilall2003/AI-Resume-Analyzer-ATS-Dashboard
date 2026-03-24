@@ -143,10 +143,11 @@ job_data = {
 rows = []
 
 for category, roles in job_data.items():
-    for role, skills in roles.items():
-        for skill in skills:
-            rows.append([category, role, skill])
+    for role, details in roles.items():
+        description = details["description"]
+        for skill in details["skills"]:
+            rows.append([category, role, description, skill])
 
-df = pd.DataFrame(rows, columns=["category","role","skill"])
+df = pd.DataFrame(rows, columns=["category","role","description","skill"])
 
 df.to_csv("skills_database.csv", index=False)
