@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(layout="wide")
 st.markdown("""
@@ -39,7 +40,19 @@ st.markdown("""
             </div>
             """, unsafe_allow_html=True)
 
-job_cat=st.selectbox("Job Category",range(1,10))
+data = pd.read_csv("data/skills_database.csv")
+
+# Step 1: Get unique categories
+categories = data["category"].unique()
+
+# Step 2: Select category
+job_cat = st.selectbox("Job Category", categories)
+
+# Step 3: Filter roles based on selected category
+filtered_roles = data[data["category"] == job_cat]["role"].unique()
+
+# Step 4: Select role
+selected_role = st.selectbox("Specific Role", filtered_roles)
 
 # uploaded_file = st.file_uploader(
 #     "Upload Resume",
