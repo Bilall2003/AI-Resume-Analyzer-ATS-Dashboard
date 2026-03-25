@@ -54,6 +54,8 @@ filtered_roles = data[data["category"] == job_cat]["role"].unique()
 # Step 4: Select role
 selected_role = st.selectbox("Specific Role", filtered_roles)
 
+selected_des=data[data["role"] == selected_role]["description"].unique()
+
 st.markdown(f"""
         <style>
         .thrd-box {{
@@ -81,10 +83,7 @@ st.markdown(f"""
 
         <div class="thrd-box">
             <h2>{selected_role if selected_role else "Select a role"}</h2>
-            <p>
-                Visual interfaces that aggregate key performance indicators and metrics 
-                from various data sources into a single, easy-to-digest format.
-            </p>
+            <p>{selected_des if selected_des else "Select a role"}</p>
         </div>
         """, unsafe_allow_html=True)
 
