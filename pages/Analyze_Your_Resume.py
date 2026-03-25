@@ -96,12 +96,22 @@ st.markdown(f"""
         </div>
         """, unsafe_allow_html=True)
 
+# 1. Inject the CSS (without the <div> tag)
+# This CSS 'finds' the container and colors it
+st.markdown("""
+    <style>
+    [data-testid="stVerticalBlock"] > div:has(.stFileUploader) {
+       background: linear-gradient(45deg, rgba(120, 180, 200, 0.3) 100%, rgba(0, 131, 176, 0.05) 100%); 
+        padding: 20px;
+        width:2500px;
+        border-radius: 12px;
+        color: white;
+        max-width: 1300px; 
+        overflow:hidden;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-uploaded_file = st.file_uploader(
-    "Upload Resume",
-    type=["pdf","docx"]
-)
-
-if uploaded_file:
-    st.success("Resume uploaded successfully!")
-    
+# Now, simply calling the uploader puts it inside that styled area
+st.caption("🧾Upload your resume to get started with AI-powered analysis")
+uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
