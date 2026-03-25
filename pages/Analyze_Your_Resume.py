@@ -54,7 +54,13 @@ filtered_roles = data[data["category"] == job_cat]["role"].unique()
 # Step 4: Select role
 selected_role = st.selectbox("Specific Role", filtered_roles)
 
-selected_des=data[data["role"] == selected_role]["description"].unique()
+# select description
+selected_des = data.loc[data["role"] == selected_role, "description"].values[0]
+
+# select skills
+skills_array = data.loc[data["role"] == selected_role, "skill"].unique()
+
+skills_html = ", ".join([f"<span class='tag'>{s}</span>" for s in skills_array])
 
 st.markdown(f"""
         <style>
@@ -80,12 +86,15 @@ st.markdown(f"""
             line-height: 1.5;
         }}
         </style>
-
+        
         <div class="thrd-box">
             <h2>{selected_role if selected_role else "Select a role"}</h2>
-            <p>{selected_des if selected_des else "Select a role"}</p>
+            <p>{selected_des if selected_des else "No description available."}</p>
+            <h2>Required Skills</h2>
+            <p>{skills_html if skills_html else "Skills will appear here."}</p>
         </div>
         """, unsafe_allow_html=True)
+
 
 # uploaded_file = st.file_uploader(
 #     "Upload Resume",
