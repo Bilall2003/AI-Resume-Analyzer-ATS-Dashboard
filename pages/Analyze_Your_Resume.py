@@ -72,6 +72,7 @@ st.markdown(f"""
         color: white;
         max-width: 1300px; 
         margin-top: 35px;
+        margin-bottom: 35px;
         overflow:hidden;
         }}
 
@@ -96,11 +97,11 @@ st.markdown(f"""
         """, unsafe_allow_html=True)
 
 
-# uploaded_file = st.file_uploader(
-#     "Upload Resume",
-#     type=["pdf","docx"]
-# )
+uploaded_file = st.file_uploader(
+    "Upload Resume",
+    type=["pdf","docx"]
+)
 
-# if uploaded_file:
-#     st.success("Resume uploaded successfully!")
+if uploaded_file:
+    st.success("Resume uploaded successfully!")
     
