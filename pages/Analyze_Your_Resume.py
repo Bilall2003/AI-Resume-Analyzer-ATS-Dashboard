@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+from parser_utils import run_regex_analysis
+
 
 st.set_page_config(layout="wide")
 st.markdown("""
@@ -115,14 +117,16 @@ st.markdown("""
 # Now, simply calling the uploader puts it inside that styled area
 st.caption("🧾Upload your resume to get started with AI-powered analysis")
 uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
-from parser_utils import run_regex_analysis
+
+
 if uploaded_file:
     results = run_regex_analysis(uploaded_file)
-    with st.expander("Debug: Search for 'linkedin' in raw text"):
-        if "linkedin" in results['text'].lower():
-            st.write("Found 'linkedin' in text, but Regex missed it.")
-            # Show a snippet of where it found it
-            start_index = results['text'].lower().find("linkedin")
-            st.text(results['text'][start_index:start_index+50])
-        else:
-            st.write("The word 'linkedin' is NOT in the extracted text at all.")
+    resume_text = results["text"].lower()
+
+    matched = []
+
+    for skill in skills_array:
+        if skill.lower() in resume_text:
+            matched.append(skill)
+
+    st.write("Matched Skills:", matched)
