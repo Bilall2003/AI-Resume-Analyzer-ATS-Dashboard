@@ -91,7 +91,7 @@ st.markdown(f"""
         <div class="thrd-box">
             <h2>{selected_role if selected_role else "Select a role"}</h2>
             <p>{selected_des if selected_des else "No description available."}</p>
-            <h2>Required Skills</h2>
+            <h2>Required Skills:</h2>
             <p>{skills_html if skills_html else "Skills will appear here."}</p>
         </div>
         """, unsafe_allow_html=True)
@@ -115,3 +115,14 @@ st.markdown("""
 # Now, simply calling the uploader puts it inside that styled area
 st.caption("🧾Upload your resume to get started with AI-powered analysis")
 uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
+from parser_utils import run_regex_analysis
+if uploaded_file:
+    results = run_regex_analysis(uploaded_file)
+    with st.expander("Debug: Search for 'linkedin' in raw text"):
+        if "linkedin" in results['text'].lower():
+            st.write("Found 'linkedin' in text, but Regex missed it.")
+            # Show a snippet of where it found it
+            start_index = results['text'].lower().find("linkedin")
+            st.text(results['text'][start_index:start_index+50])
+        else:
+            st.write("The word 'linkedin' is NOT in the extracted text at all.")
