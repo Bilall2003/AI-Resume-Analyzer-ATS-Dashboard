@@ -109,28 +109,6 @@ st.markdown("""
 st.caption("🧾 Upload your resume to get started with AI-powered analysis")
 uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
 
-# ---------------- GAUGE FUNCTION ----------------
-def draw_gauge(score):
-    fig, ax = plt.subplots()
-
-    theta = np.linspace(0, np.pi, 100)
-
-    # Zones
-    ax.fill_between(np.cos(theta[:40]), np.sin(theta[:40]), color='red')
-    ax.fill_between(np.cos(theta[40:70]), np.sin(theta[40:70]), color='orange')
-    ax.fill_between(np.cos(theta[70:]), np.sin(theta[70:]), color='green')
-
-    # Needle
-    angle = np.pi * (score / 100)
-    ax.plot([0, np.cos(angle)], [0, np.sin(angle)], linewidth=3)
-
-    # Score text
-    ax.text(0, -0.2, f'{score:.2f}%', ha='center', fontsize=14)
-
-    ax.axis('off')
-    ax.set_aspect('equal')
-
-    return fig
 
 # ---------------- ANALYSIS ----------------
 if uploaded_file:
@@ -140,6 +118,8 @@ if uploaded_file:
     required_skills = [s.lower() for s in skills_array]
 
     matched_skills = [s for s in required_skills if s in resume_text]
+    
+    matched_skills=str(matched_skills)
     missing_skills = list(set(required_skills) - set(matched_skills))
 
     ats_score = (len(matched_skills) / len(required_skills)) * 100 if required_skills else 0
@@ -164,6 +144,7 @@ if uploaded_file:
     col1, col2 = st.columns([1.2, 1.8])
 
     # ========== LEFT ==========
+    
     with col1:
         st.markdown('<div class="card">', unsafe_allow_html=True)
         st.subheader("ATS Score")
@@ -186,19 +167,53 @@ if uploaded_file:
 
         # -------- Skills Match --------
         st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.subheader("Skills Match")
-        st.write(f"Keyword Match: {int(ats_score)}%")
-
-        st.markdown("### Missing Skills:")
-        if missing_skills:
-            for skill in missing_skills:
-                st.write(f"• {skill}")
-        else:
-            st.write("None 🎉")
-
         st.markdown('</div>', unsafe_allow_html=True)
 
-    # ========== RIGHT ==========
+        # ========== RIGHT ==========
+        
+    st.markdown(f"""
+                <style>
+                .skill-box {{
+                    background: linear-gradient(45deg, rgba(120, 180, 200, 0.3) 100%, rgba(0, 131, 176, 0.05) 100%);           
+                    padding: 20px;
+                    width:520px;
+                    border-radius: 12px;
+                    color: white;
+                    max-width: 1300px;
+                    margin-top: 35px;
+                    overflow:hidden;
+                }}
+                
+                .skill-box h2 {{
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }}
+
+                .skill-box p {{
+                    font-size: 1.2rem;
+                    line-height: 1.5;
+                }}
+                
+                .skill-box:hover {{
+                    cursor: pointer;
+                    transform: scale(1.02);
+                    transition: 0.1s;
+                    border:3px solid #6dd5ed 
+                }}
+                </style>
+
+                <div class="skill-box">
+                    <h3>keyword Match</h3>
+                      {int(ats_score)}%
+                    <h3>Skills Match</h3>
+                    <p>
+                            {matched_skills}
+                    </p>
+                    <h3>Missing Skills</h3>
+                            {missing_skills}
+                </div>
+                """, unsafe_allow_html=True)
     with col2:
 
         # -------- Format Analysis --------
