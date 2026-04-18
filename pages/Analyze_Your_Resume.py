@@ -130,6 +130,7 @@ uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
 
 # ---------------- ANALYSIS ----------------
 if uploaded_file:
+    st.success("Resume data saved Successfully....")
     results = run_regex_analysis(uploaded_file)
     resume_text = results["text"].lower()
 
@@ -397,6 +398,8 @@ if uploaded_file:
             st.markdown(f"### {title}")
             for tip in tips:
                 st.write(f"• {tip}")
+                
+    st.title("Interview Guide")
 
 else:
     st.info("Upload your resume to see ATS analysis")
