@@ -405,19 +405,21 @@ if uploaded_file:
             </div>
         """, unsafe_allow_html=True)
     
+    
     st.markdown(f"""
             <div class="thrd-box">
             <h2> 💁🏻‍♀️Helpful Videos</h2>
             </div>
         """, unsafe_allow_html=True)
     
-    tab1, tab2 = st.tabs(["Helpful Videos", "Other Resources"])
+    tab1, tab2 = st.tabs(["Resume Tips", "Interview Tips"])
 
     with tab1:
-        st.write("Videos will go here")
+        st.subheader("Resume Writing")
+        st.subheader("Resume Design")
 
     with tab2:
-        st.write("Other content here")
+        st.write("Interview Tips")
         
         
 
