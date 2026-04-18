@@ -399,7 +399,27 @@ if uploaded_file:
             for tip in tips:
                 st.write(f"• {tip}")
                 
-    st.title("Interview Guide")
+    st.markdown(f"""
+            <div class="thrd-box">
+            <h2> 📚Recommended Courses </h2>
+            </div>
+        """, unsafe_allow_html=True)
+    
+    st.markdown(f"""
+            <div class="thrd-box">
+            <h2> 💁🏻‍♀️Helpful Videos</h2>
+            </div>
+        """, unsafe_allow_html=True)
+    
+    tab1, tab2 = st.tabs(["Helpful Videos", "Other Resources"])
+
+    with tab1:
+        st.write("Videos will go here")
+
+    with tab2:
+        st.write("Other content here")
+        
+        
 
 else:
     st.info("Upload your resume to see ATS analysis")
