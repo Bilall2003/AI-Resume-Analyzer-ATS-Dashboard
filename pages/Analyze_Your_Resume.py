@@ -422,7 +422,10 @@ if uploaded_file:
             st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
             st.video("https://www.youtube.com/watch?v=QnUI3sLZ4hc")
         with col2:
-            st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
+            st.markdown(
+                '<iframe width="100%" height="400" src="https://www.youtube.com/embed/Tt08KmFfIYQ"></iframe>',
+                unsafe_allow_html=True
+            )
             st.subheader("Resume Design")
 
     with tab2:
