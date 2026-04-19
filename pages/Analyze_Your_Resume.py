@@ -416,10 +416,14 @@ if uploaded_file:
 
     with tab1:
         st.subheader("Resume Writing")
-        st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
-        st.video("https://www.youtube.com/watch?v=QnUI3sLZ4hc")
-        st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
-        st.subheader("Resume Design")
+        col1,col2=st.columns(2)
+        
+        with col1:
+            st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
+            st.video("https://www.youtube.com/watch?v=QnUI3sLZ4hc")
+        with col2:
+            st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
+            st.subheader("Resume Design")
 
     with tab2:
         st.write("Interview Tips")
