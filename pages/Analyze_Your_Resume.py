@@ -416,6 +416,7 @@ if uploaded_file:
 
     with tab1:
         st.subheader("Resume Writing")
+        st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
         st.subheader("Resume Design")
 
     with tab2:
