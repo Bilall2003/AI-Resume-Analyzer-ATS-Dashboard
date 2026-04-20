@@ -419,14 +419,11 @@ if uploaded_file:
         col1,col2=st.columns(2)
         
         with col1:
-            st.video("https://www.youtube.com/watch?v=Tt08KmFfIYQ")
-            st.video("https://www.youtube.com/watch?v=QnUI3sLZ4hc")
+            st.video("https://www.youtube.com/embed/Tt08KmFfIYQ")
         with col2:
-            st.markdown(
-                '<iframe width="100%" height="400" src="https://www.youtube.com/embed/Tt08KmFfIYQ"></iframe>',
-                unsafe_allow_html=True
-            )
-            st.subheader("Resume Design")
+            st.video("https://www.youtube.com/watch?v=ck5nw7R1uEs")
+            
+    st.subheader("Resume Design")
 
     with tab2:
         st.write("Interview Tips")
