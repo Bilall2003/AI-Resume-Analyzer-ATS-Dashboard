@@ -451,4 +451,8 @@ if uploaded_file:
             st.video("https://www.youtube.com/watch?v=IV30jAw7dxA")
         with col8:
             st.video("https://www.youtube.com/watch?v=7_aAicmPB3A")
+            
+else:
+    
+    st.warning("Please upload a proper resume for ATS analysis.")
         
