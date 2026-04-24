@@ -423,13 +423,13 @@ if uploaded_file:
         with col2:
             st.video("https://www.youtube.com/watch?v=ck5nw7R1uEs")
             
-    st.subheader("Resume Design")
-    col3,col4=st.columns(2)
-    
-    with col3:
-        st.video("https://www.youtube.com/watch?v=qhocVNbvNHs&t")
-    with col4:
-        st.video("https://www.youtube.com/watch?v=kCgn-7NBPSs")
+        st.subheader("Resume Design")
+        col3,col4=st.columns(2)
+        
+        with col3:
+            st.video("https://www.youtube.com/watch?v=qhocVNbvNHs&t")
+        with col4:
+            st.video("https://www.youtube.com/watch?v=kCgn-7NBPSs")
 
     with tab2:
         st.write("Interview Tips")
