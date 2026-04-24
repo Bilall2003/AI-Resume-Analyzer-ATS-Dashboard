@@ -126,10 +126,14 @@ st.markdown(f"""
 
 # ---------------- FILE UPLOAD ----------------
 st.caption("🧾 Upload your resume to get started with AI-powered analysis")
-uploaded_file = st.file_uploader("Upload Resume", type=["pdf", "docx"])
+file_type=["pdf", "docx"]
+uploaded_file = st.file_uploader("Upload Resume", type=file_type)
 
 # ---------------- ANALYSIS ----------------
-if uploaded_file:
+if uploaded_file is not file_type:
+    
+    st.error("⚠️This appears to be a unknown document, not a resume!")
+    st.warning("Please upload a proper resume for ATS analysis.")
     st.success("Resume data saved Successfully....")
     results = run_regex_analysis(uploaded_file)
     resume_text = results["text"].lower()
