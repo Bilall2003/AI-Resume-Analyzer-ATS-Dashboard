@@ -440,7 +440,15 @@ if uploaded_file:
             st.video("https://www.youtube.com/watch?v=1t1_a1BZ04o")
         with col6:
             st.video("https://www.youtube.com/watch?v=1qw5ITr3k9E&t")
+            
+        st.subheader("Behavioral Interview")
         
+        col7,col8=st.columns(2)
+        
+        with col7:
+            st.video("https://www.youtube.com/watch?v=IV30jAw7dxA")
+        with col8:
+            st.video("https://www.youtube.com/watch?v=7_aAicmPB3A")
         
 
 else:
