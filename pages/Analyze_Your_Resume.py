@@ -432,7 +432,14 @@ if uploaded_file:
             st.video("https://www.youtube.com/watch?v=kCgn-7NBPSs")
 
     with tab2:
-        st.write("Interview Tips")
+        st.subheader("Technical Interview")
+        
+        col5,col6=st.columns(2)
+        
+        with col5:
+            st.video("https://www.youtube.com/watch?v=1t1_a1BZ04o")
+        with col6:
+            st.video("https://www.youtube.com/watch?v=1qw5ITr3k9E&t")
         
         
 
