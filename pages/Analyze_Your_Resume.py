@@ -130,10 +130,8 @@ file_type=["pdf", "docx"]
 uploaded_file = st.file_uploader("Upload Resume", type=file_type)
 
 # ---------------- ANALYSIS ----------------
-if uploaded_file is not file_type:
+if uploaded_file:
     
-    st.error("⚠️This appears to be a unknown document, not a resume!")
-    st.warning("Please upload a proper resume for ATS analysis.")
     st.success("Resume data saved Successfully....")
     results = run_regex_analysis(uploaded_file)
     resume_text = results["text"].lower()
@@ -454,6 +452,3 @@ if uploaded_file is not file_type:
         with col8:
             st.video("https://www.youtube.com/watch?v=7_aAicmPB3A")
         
-
-else:
-    st.info("Upload your resume to see ATS analysis")
