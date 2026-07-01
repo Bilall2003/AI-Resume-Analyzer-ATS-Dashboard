@@ -205,19 +205,6 @@ streamlit run app.py
 
 ---
 
-# 📸 Screenshots
-
-> Replace these placeholders with your application screenshots.
-
-| Home | Resume Analysis |
-|------|-----------------|
-| ![](images/home.png) | ![](images/analyzer.png) |
-
-| Dashboard |
-|------------|
-| ![](images/dashboard.png) |
-
----
 
 # 🎯 ATS Evaluation Includes
 
@@ -273,8 +260,5 @@ git commit -m "Added new feature"
 git push origin feature-name
 ```
 
-5. Open a Pull Request
-
----
 
 
