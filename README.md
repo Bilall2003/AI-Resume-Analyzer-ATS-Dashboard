@@ -24,12 +24,12 @@ Modern companies use **Applicant Tracking Systems (ATS)** to filter resumes befo
 
 **AI Resume ATS Analyzer** simulates this process by evaluating resumes against selected job roles and provides intelligent insights including:
 
-- 🎯 ATS Compatibility Score
-- 🔍 Skill Matching Analysis
-- ❌ Missing Skills Detection
-- 💡 Resume Improvement Suggestions
-- 📚 Learning Resource Recommendations
-- 📊 Analytics Dashboard
+-  ATS Compatibility Score
+-  Skill Matching Analysis
+-  Missing Skills Detection
+-  Resume Improvement Suggestions
+-  Learning Resource Recommendations
+-  Analytics Dashboard
 
 ---
 
