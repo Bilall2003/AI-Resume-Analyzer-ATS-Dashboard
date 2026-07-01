@@ -277,13 +277,4 @@ git push origin feature-name
 
 ---
 
-# ⭐ Support
-
-If you found this project useful,
-
-**Give it a ⭐ on GitHub!**
-
-It helps others discover the project.
-
----
 
