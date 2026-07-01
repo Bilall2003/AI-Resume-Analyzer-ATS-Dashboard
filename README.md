@@ -287,8 +287,3 @@ It helps others discover the project.
 
 ---
 
-<div align="center">
-
-### Built with ❤️ using Python & Streamlit
-
-</div>
