@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 AI Resume ATS Analyzer
+# 🧠 AI Resume ATS Analyzer
 
 ### Intelligent Resume Screening & ATS Score Prediction
 
