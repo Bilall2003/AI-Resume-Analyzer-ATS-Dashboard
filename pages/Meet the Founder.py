@@ -5,17 +5,16 @@ st.markdown("""
 .firstbox{
     background: linear-gradient(45deg, rgba(120, 180, 200, 0.3), rgba(0, 131, 176, 0.1));
     width: 600px;
-    height: 900px;
+    height: 600px;
     border-radius: 20px;
     padding: 20px;
-    color: black;
     margin: 100px auto; /* center horizontally */
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-    gap: 15px; /* spacing between elements */
+    gap: 5px; /* spacing between elements */
     color: white;
 }
 
