@@ -185,7 +185,7 @@ if uploaded_file:
         st.subheader("ATS Score")
         fig = draw_donut(ats_score)
         st.pyplot(fig)
-        st.markdown(f'<p style="color:{color}; font-weight:bold;">{status}</p>', unsafe_allow_html=True)
+        st.markdown(f'<h1 style="color:{color}; font-weight:bold; ">{status}</h1>', unsafe_allow_html=True)
 
         # FIX 5: Skill box is now inside col1
         st.markdown(f"""
