@@ -1,46 +1,61 @@
 import streamlit as st
+import textwrap
 
-st.markdown("""
+st.markdown(textwrap.dedent("""
 <style>
 .firstbox{
     background: linear-gradient(45deg, rgba(120, 180, 200, 0.3), rgba(0, 131, 176, 0.1));
     width: 600px;
-    height: 600px;
     border-radius: 20px;
-    padding: 20px;
-    margin: 100px auto; /* center horizontally */
+    padding: 25px;
+    margin: 100px auto;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-    gap: 5px; /* spacing between elements */
+    gap: 10px;
     color: white;
+    text-align: center;
 }
-
 .profileimg{
     border-radius:50%;
     border:3px solid black;
 }
-
-.github-icon{
+.socials{
+    display:flex;
+    gap:20px;
+    margin-top:15px;
+}
+.socials img{
     width:40px;
-    cursor:pointer;
-    transition: transform 0.2s;
+    transition:0.3s;
 }
-
-.github-icon:hover{
-    transform: scale(1.1);
+.socials img:hover{
+    transform:scale(1.15);
 }
-
 </style>
 
 <div class="firstbox">
     <img class="profileimg" src="https://avatars.githubusercontent.com/u/189706034?v=4" height="150">
     <h2>Bilal Ahmed</h2>
-    <p2> Motivated computer science student specializing in data science and applied AI, hands-on experience with
-machine learning, NLP, and end-to-end data projects. Skilled in transforming complex datasets into actionable
-insights using Python, SQL, and modern analytical frameworks. Committed to building efficient, scalable, and
-reliable data-driven solutions, and eager to contribute to high-impact analytical and AI-driven teams.</p2>
+    <p>
+    Motivated Computer Science student specializing in Data Science and Applied AI,
+    with hands-on experience in Machine Learning, NLP, and end-to-end data projects.
+    Skilled in transforming complex datasets into actionable insights using Python,
+    SQL, and modern analytical frameworks. Passionate about building scalable,
+    reliable, and data-driven solutions.
+    </p>
+    <div class="socials">
+        <a href="https://github.com/Bilall2003" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/bilal-ahmed-56b105248/" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/linkedin.png">
+        </a>
+        <a href="mailto:ahmedbilal988766@gmail.com">
+            <img src="https://img.icons8.com/ios-filled/50/gmail.png">
+        </a>
+    </div>
 </div>
-""", unsafe_allow_html=True)
+"""), unsafe_allow_html=True)
