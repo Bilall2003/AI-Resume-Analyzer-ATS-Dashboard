@@ -21,15 +21,17 @@ st.markdown(textwrap.dedent("""
 .profileimg{
     border-radius:50%;
     border:3px solid black;
+
 }
 .socials{
     display:flex;
-    gap:20px;
+    gap:50px;
     margin-top:15px;
+
 }
 .socials img{
-    width:40px;
-    transition:0.3s;
+    width:100px;
+    transition:0.1s;
 }
 .socials img:hover{
     transform:scale(1.15);
