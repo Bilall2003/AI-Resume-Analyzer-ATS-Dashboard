@@ -191,7 +191,6 @@ if uploaded_file:
         st.markdown(f"""
             <div class="skill-box">
                 <h3>Keyword Match</h3>
-                <p>{int(ats_score)}%</p>
                 <h3>Skills Match</h3>
                 <p>{matched_html}</p>
                 <h3>Missing Skills</h3>
