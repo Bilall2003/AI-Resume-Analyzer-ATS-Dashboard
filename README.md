@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/NLP?style=for-the-badge">
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 
 <p>
