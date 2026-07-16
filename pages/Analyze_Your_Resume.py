@@ -131,6 +131,7 @@ file_type=["pdf", "docx"]
 uploaded_file = st.file_uploader("Upload Resume", type=file_type, max_upload_size=500)
 
 # ---------------- ANALYSIS ----------------
+count=0
 if uploaded_file:
     
     results = run_regex_analysis(uploaded_file)
@@ -139,6 +140,7 @@ if uploaded_file:
 
     if is_resume(resume_text, results):
         st.success("Resume uploaded successfully.")
+        count+=1
         resume_text = results["text"].lower()
 
         required_skills = [s.lower() for s in skills_array]
@@ -455,8 +457,10 @@ if uploaded_file:
                 st.video("https://www.youtube.com/watch?v=IV30jAw7dxA")
             with col8:
                 st.video("https://www.youtube.com/watch?v=7_aAicmPB3A")
+                
             
     else:
         
         st.warning("Please upload a proper resume for ATS analysis.")
+        
             
