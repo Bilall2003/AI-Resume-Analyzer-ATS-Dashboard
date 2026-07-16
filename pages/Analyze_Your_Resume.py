@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from parser_utils import run_regex_analysis
+from parser_utils import run_regex_analysis,is_resume
 import matplotlib.pyplot as plt
 import re
 
@@ -134,9 +134,11 @@ uploaded_file = st.file_uploader("Upload Resume", type=file_type, max_upload_siz
 if uploaded_file:
     
     results = run_regex_analysis(uploaded_file)
-    final_res=re.findall(results,uploaded_file)
-    if final_res:
-        st.success("Resume data saved Successfully....")
+
+    resume_text = results["text"]
+
+    if is_resume(resume_text, results):
+        st.success("Resume uploaded successfully.")
         resume_text = results["text"].lower()
 
         required_skills = [s.lower() for s in skills_array]
