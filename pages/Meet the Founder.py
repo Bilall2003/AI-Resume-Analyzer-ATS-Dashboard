@@ -34,7 +34,7 @@ st.markdown(textwrap.dedent("""
     transition:0.1s;
 }
 .socials img:hover{
-    transform:scale(1.15);
+    transform:scale(1.35);
 }
 </style>
 
@@ -52,7 +52,7 @@ st.markdown(textwrap.dedent("""
         <a href="https://github.com/Bilall2003" target="_blank">
             <img src="https://img.icons8.com/ios-filled/50/github.png">
         </a>
-        <a href="https://www.linkedin.com/in/bilal-ahmed-56b105248/" target="_blank">
+        <a href="https://www.linkedin.com/in/bilal-ahmed-56b105248/" target="_blank" title="Linkedin">
             <img src="https://img.icons8.com/ios-filled/50/linkedin.png">
         </a>
         <a href="mailto:ahmedbilal988766@gmail.com">
