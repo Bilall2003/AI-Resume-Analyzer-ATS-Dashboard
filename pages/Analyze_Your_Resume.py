@@ -127,7 +127,7 @@ st.markdown(f"""
 # ---------------- FILE UPLOAD ----------------
 st.caption("🧾 Upload your resume to get started with AI-powered analysis")
 file_type=["pdf", "docx"]
-uploaded_file = st.file_uploader("Upload Resume", type=file_type)
+uploaded_file = st.file_uploader("Upload Resume", type=file_type, max_upload_size=500)
 
 # ---------------- ANALYSIS ----------------
 if uploaded_file:
