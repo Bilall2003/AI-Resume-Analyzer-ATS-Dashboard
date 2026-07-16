@@ -49,7 +49,7 @@ st.markdown(textwrap.dedent("""
     reliable, and data-driven solutions.
     </p>
     <div class="socials">
-        <a href="https://github.com/Bilall2003" target="_blank">
+        <a href="https://github.com/Bilall2003" target="_blank" title="Github">
             <img src="https://img.icons8.com/ios-filled/50/github.png">
         </a>
         <a href="https://www.linkedin.com/in/bilal-ahmed-56b105248/" target="_blank" title="Linkedin">
