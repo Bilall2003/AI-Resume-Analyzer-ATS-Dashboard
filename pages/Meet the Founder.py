@@ -55,7 +55,7 @@ st.markdown(textwrap.dedent("""
         <a href="https://www.linkedin.com/in/bilal-ahmed-56b105248/" target="_blank" title="Linkedin">
             <img src="https://img.icons8.com/ios-filled/50/linkedin.png">
         </a>
-        <a href="mailto:ahmedbilal988766@gmail.com">
+        <a href="mailto:ahmedbilal988766@gmail.com" target="_blank" title="Gmail">
             <img src="https://img.icons8.com/ios-filled/50/gmail.png">
         </a>
     </div>
