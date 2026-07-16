@@ -22,3 +22,43 @@ def run_regex_analysis(uploaded_file):
         "phones": phones,
         "links": links
     }
+
+def is_resume(text, results):
+
+    score = 0
+
+    # Contact Information
+    if results["emails"]:
+        score += 1
+
+    if results["phones"]:
+        score += 1
+
+    if results["links"]:
+        score += 1
+
+    # Resume Sections
+    sections = [
+        "education",
+        "experience",
+        "skills",
+        "projects",
+        "summary",
+        "objective",
+        "certifications",
+        "internship",
+        "employment"
+    ]
+
+    found_sections = sum(
+        section in text.lower()
+        for section in sections
+    )
+
+    score += found_sections
+
+    # Enough content?
+    if len(text.split()) > 150:
+        score += 1
+
+    return score >= 5
