@@ -1,4 +1,8 @@
 import streamlit as st
+from pages import About
+from pages import Analyze_Your_Resume
+from pages import dashboard
+
 st.set_page_config(
     page_title="AI Resume ATS Analyzer",
     page_icon="📄",
