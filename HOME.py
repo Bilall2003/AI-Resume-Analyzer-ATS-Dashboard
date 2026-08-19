@@ -283,8 +283,9 @@ st.markdown("""
             
             """, unsafe_allow_html=True)
 
-if __name__ == "__main__":
-    
-    pass
 
+st.sidebar.title("Options")
+
+lst=["Home","Analyze_your_Resume","About"]
+st.sidebar.button(lst)
         
