@@ -284,8 +284,5 @@ st.markdown("""
             """, unsafe_allow_html=True)
 
 
-st.sidebar.title("Options")
 
-lst=["Home","Analyze_your_Resume","About"]
-st.sidebar.button(lst)
         
